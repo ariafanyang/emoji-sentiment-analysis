@@ -101,6 +101,44 @@ Words](https://doi.org/10.1093/pan/mpn018)
 
 -   Emojis in uncertainty are more mixed and less specific
 
+## Interactive Visualizations
+
+### Top 20 emojis overall
+
+This figure shows the most frequent emojis in the full dataset.
+
+![Top 20 emojis overall](figures/top20_emojis.jpg)
+
+Interactive version: [Open plot](https://ariafanyang.github.io/emoji-sentiment-analysis/plots/top20_emojis.html)
+
+### Top 10 emojis by label
+
+This plot highlights the most common emojis within each label, making it easier to compare how emoji usage differs across sentiment categories.
+
+![Top 10 emojis by label](outputs/top_10_by_label.png)
+
+Interactive version: [Open plot](https://ariafanyang.github.io/emoji-sentiment-analysis/plots/top10_per_label.html)
+
+### Emoji frequency heatmap
+
+The heatmap gives a cross-label view of emoji usage patterns and helps identify which emojis are broadly used versus label-specific.
+
+![Emoji frequency heatmap](outputs/frequency_heatmap.jpg)
+
+Interactive version: [Open plot](https://ariafanyang.github.io/emoji-sentiment-analysis/plots/heatmap.html)
+
+### Emoji-label association
+
+This figure summarizes emoji-label association strength using the z-scores from the log-odds analysis, helping identify emojis that are  each label.
+
+![Emoji-label association](outputs/emoji_label_association.jpg)
+
+Interactive version: [Open plot](https://ariafanyang.github.io/emoji-sentiment-analysis/plots/emoji_label_association.html)
+
+### Full gallery
+
+You can also browse all interactive plots here: [Open gallery](https://ariafanyang.github.io/emoji-sentiment-analysis/)
+
 ## Possible next steps
 
 -   compare emoji patterns by language
