@@ -81,9 +81,6 @@ Smoothed log-odds measures whether an emoji is used more often in a
 given label than in the other labels, while adjusting for overall
 frequency and differences in label size.
 
-Reference: [Monroe et al. (2008) – Fightin’
-Words](https://doi.org/10.1093/pan/mpn018)
-
 ## Key Findings
 
 -   Most tweets use just one emoji, while only a few use many
@@ -107,7 +104,7 @@ Words](https://doi.org/10.1093/pan/mpn018)
 
 This figure shows the most frequent emojis in the full dataset.
 
-![Top 20 emojis overall](figures/top20_emojis.jpg)
+![Top 20 emojis overall](outputs/top20_emojis.jpg)
 
 Interactive version: [Open plot](https://ariafanyang.github.io/emoji-sentiment-analysis/plots/top20_emojis.html)
 
