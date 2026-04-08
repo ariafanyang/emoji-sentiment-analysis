@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Emoji Analysis Plot Gallery</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+      line-height: 1.6;
+      color: #222;
+    }
+    h1, h2 {
+      margin-bottom: 0.4em;
+    }
+    .section {
+      margin-bottom: 32px;
+    }
+    .card {
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 18px 20px;
+      margin-bottom: 16px;
+    }
+    a {
+      color: #1a73e8;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .small {
+      color: #666;
+      font-size: 0.95em;
+    }
+  </style>
+</head>
+<body>
+  <h1>Emoji Analysis Plot Gallery</h1>
+  <p>
+    Interactive Plotly visualizations exploring emoji usage patterns across different sentiment labels.
+  </p>
+
+  <div class="section">
+    <h2>Interactive plots</h2>
+
+    <div class="card">
+      <h3><a href="plots/top20_emojis.html">Top 20 emojis overall</a></h3>
+      <p class="small">
+        Baseline frequency of the most common emojis in the full dataset.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3><a href="plots/top10_per_label.html">Top 10 emojis per label</a></h3>
+      <p class="small">
+        Most frequent emojis within each label category.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3><a href="plots/heatmap.html">Emoji-Label Heatmap</a></h3>
+      <p class="small">
+        Comparison of emoji usage patterns across labels.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3><a href="plots/emoji_label_association.html">Emoji-label association (z-score view)</a></h3>
+      <p class="small">
+        Distinctiveness of emojis by label based on z-scores and concentration.
+      </p>
+    </div>
+
+  </div>
+
+  <div class="section">
+    <h2>Repository</h2>
+    <p>
+      View the full project on 
+      <a href="https://github.com/ariafanyang/emoji-sentiment-analysis">GitHub</a>.
+    </p>
+  </div>
+</body>
+</html>
